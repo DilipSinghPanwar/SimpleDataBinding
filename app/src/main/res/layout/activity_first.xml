@@ -1,0 +1,27 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".FirstActivity">
+
+        <TextView
+            android:id="@+id/tvHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Hello" />
+
+        <TextView
+            android:id="@+id/tvSubHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvHeading"
+            android:layout_centerHorizontal="true"
+            android:text="Android DataBinding Tutorials" />
+
+    </RelativeLayout>
+
+</layout>
